@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html class="light" lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Sports - Digsui sadhana Banga Vidyalaya</title>
+    <link href="https://fonts.googleapis.com" rel="preconnect"/>
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Noto+Sans:wght@300..800&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <script>
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: { "primary": "#135bec", "background-light": "#f6f6f8", "background-dark": "#101622" },
+                    fontFamily: { "display": ["Lexend", "sans-serif"], "body": ["Noto Sans", "sans-serif"] }
+                },
+            },
+        }
+    </script>
+</head>
+<body class="bg-background-light dark:bg-background-dark text-[#0d121b] dark:text-white">
+    <header class="sticky top-0 z-50 w-full border-b border-[#e7ebf3] dark:border-slate-800 bg-white dark:bg-slate-900 shadow-sm">
+        <div class="px-4 md:px-10 py-3 flex items-center justify-between">
+            <div class="flex items-center gap-3 text-primary">
+                <span class="material-symbols-outlined text-4xl">sports_soccer</span>
+                <h2 class="text-xl font-bold">Sports Department</h2>
+            </div>
+            <a href="index.html" class="text-sm font-bold text-primary hover:underline">← Back to Home</a>
+        </div>
+    </header>
+
+    <main class="max-w-[1200px] mx-auto py-12 px-4">
+        <h1 class="text-4xl font-black mb-8 text-center">Our Sports Activities</h1>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div class="bg-white dark:bg-slate-800 rounded-xl overflow-hidden shadow-lg border border-slate-100 dark:border-slate-700">
+                <div class="h-48 bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1502904550040-75345974494e?q=80&w=500')"></div>
+                <div class="p-5">
+                    <h3 class="font-bold text-lg mb-2">Annual Sports</h3>
+                    <p class="text-sm text-slate-600 dark:text-slate-400">Our yearly flagship athletic meet featuring track and field events.</p>
+                </div>
+            </div>
+            <div class="bg-white dark:bg-slate-800 rounded-xl overflow-hidden shadow-lg border border-slate-100 dark:border-slate-700">
+                <div class="h-48 bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1574629810360-7efbbe195018?q=80&w=500')"></div>
+                <div class="p-5">
+                    <h3 class="font-bold text-lg mb-2">Intra Class Sports</h3>
+                    <p class="text-sm text-slate-600 dark:text-slate-400">Friendly competitions between different sections and houses.</p>
+                </div>
+            </div>
+            <div class="bg-white dark:bg-slate-800 rounded-xl overflow-hidden shadow-lg border border-slate-100 dark:border-slate-700">
+                <div class="h-48 bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1511886929837-354d827aae26?q=80&w=500')"></div>
+                <div class="p-5">
+                    <h3 class="font-bold text-lg mb-2">Inter School Sports</h3>
+                    <p class="text-sm text-slate-600 dark:text-slate-400">Representing our school in district and state level tournaments.</p>
+                </div>
+            </div>
+            <div class="bg-white dark:bg-slate-800 rounded-xl overflow-hidden shadow-lg border border-slate-100 dark:border-slate-700">
+                <div class="h-48 bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1529156069898-49953e39b3ac?q=80&w=500')"></div>
+                <div class="p-5">
+                    <h3 class="font-bold text-lg mb-2">Teacher-Student-Family</h3>
+                    <p class="text-sm text-slate-600 dark:text-slate-400">Special matches designed to build community and school spirit.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
