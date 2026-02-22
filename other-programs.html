@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html class="light" lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Other Programs - Digsui sadhana Banga Vidyalaya</title>
+    <link href="https://fonts.googleapis.com" rel="preconnect"/>
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Noto+Sans:wght@300..800&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <script>
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: { "primary": "#135bec", "background-light": "#f6f6f8", "background-dark": "#101622" },
+                    fontFamily: { "display": ["Lexend", "sans-serif"], "body": ["Noto Sans", "sans-serif"] },
+                    borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+                },
+            },
+        }
+    </script>
+</head>
+<body class="bg-background-light dark:bg-background-dark text-[#0d121b] dark:text-white">
+    <div class="relative flex min-h-screen w-full flex-col overflow-x-hidden">
+        
+        <header class="sticky top-0 z-50 w-full border-b border-[#e7ebf3] dark:border-slate-800 bg-white dark:bg-slate-900 shadow-sm">
+            <div class="px-4 md:px-10 py-3 flex items-center justify-between">
+                <div class="flex items-center gap-3 text-primary dark:text-blue-400">
+                    <span class="material-symbols-outlined text-4xl">celebration</span>
+                    <h2 class="text-[#0d121b] dark:text-white text-xl font-bold">Other Programs</h2>
+                </div>
+                <a href="index.html" class="flex items-center gap-2 text-sm font-bold text-primary dark:text-blue-400 hover:underline">
+                    <span class="material-symbols-outlined text-sm">home</span> Home
+                </a>
+            </div>
+        </header>
+
+        <main class="flex-1 flex flex-col items-center w-full py-12 px-4 md:px-10">
+            <h1 class="text-3xl md:text-5xl font-black mb-4 text-center">Extracurricular Excellence</h1>
+            <p class="text-slate-600 dark:text-slate-400 text-center max-w-2xl mb-12">Beyond the classroom: developing talent, culture, and community spirit.</p>
+            
+            <div class="w-full max-w-[1200px] grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-white dark:bg-slate-800 rounded-xl overflow-hidden shadow-lg border border-slate-100 dark:border-slate-700">
+                    <div class="h-56 bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1524178232363-1fb2b075b655?q=80&w=800')"></div>
+                    <div class="p-6">
+                        <h3 class="font-bold text-xl mb-3 text-pink-600">Kanyashree Activities</h3>
+                        <p class="text-sm text-slate-600 dark:text-slate-400 leading-relaxed">Empowering our female students through education, financial support, and awareness programs to ensure a brighter future.</p>
+                    </div>
+                </div>
+
+                <div class="bg-white dark:bg-slate-800 rounded-xl overflow-hidden shadow-lg border border-slate-100 dark:border-slate-700">
+                    <div class="h-56 bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1514525253361-bee8718a7439?q=80&w=800')"></div>
+                    <div class="p-6">
+                        <h3 class="font-bold text-xl mb-3 text-primary dark:text-blue-400">Cultural Programs</h3>
+                        <p class="text-sm text-slate-600 dark:text-slate-400 leading-relaxed">Celebrating festivals and annual events with dance, music, drama, and traditional art performances by students.</p>
+                    </div>
+                </div>
+
+                <div class="bg-white dark:bg-slate-800 rounded-xl overflow-hidden shadow-lg border border-slate-100 dark:border-slate-700">
+                    <div class="h-56 bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1461280360983-bd93eaa5051b?q=80&w=800')"></div>
+                    <div class="p-6">
+                        <h3 class="font-bold text-xl mb-3 text-primary dark:text-blue-400">Quiz Competition</h3>
+                        <p class="text-sm text-slate-600 dark:text-slate-400 leading-relaxed">Intra-class quiz bowls to sharpen general knowledge, mental agility, and healthy competitive spirit among students.</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer class="w-full bg-[#101622] text-white py-8 px-4 text-center border-t border-slate-800">
+            <p class="text-xs text-slate-500">© 2026 Digsui sadhana Banga Vidyalaya (H.S). All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
