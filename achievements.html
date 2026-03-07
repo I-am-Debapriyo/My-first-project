@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html class="light" lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Our Achievements - Digsui Sadhana Banga Vidyalaya (H.S.)</title>
+    <link href="https://fonts.googleapis.com" rel="preconnect"/>
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Noto+Sans:wght@300..800&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#135bec",
+                        "accent": "#ff6b6b",
+                        "background-light": "#f8fafc",
+                        "background-dark": "#0f172a",
+                    },
+                    fontFamily: {
+                        "display": ["Lexend", "sans-serif"],
+                        "body": ["Noto Sans", "sans-serif"]
+                    },
+                },
+            },
+        }
+    </script>
+    <style>
+        body { font-family: 'Lexend', sans-serif; }
+        .glass { background: rgba(255, 255, 255, 0.7); backdrop-filter: blur(10px); }
+        .dark .glass { background: rgba(15, 23, 42, 0.7); backdrop-filter: blur(10px); }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark text-[#0d121b] dark:text-white transition-colors duration-300">
+    <div class="relative flex min-h-screen w-full flex-col overflow-x-hidden">
+        
+        <header class="sticky top-0 z-50 w-full glass border-b border-slate-200/50 dark:border-slate-800/50 shadow-sm">
+            <div class="px-4 md:px-10 py-3 flex items-center justify-between">
+                <div class="flex items-center gap-8">
+                    <div class="flex items-center gap-3 text-primary dark:text-blue-400">
+                        <div class="size-10 bg-primary/10 rounded-lg flex items-center justify-center">
+                            <span class="material-symbols-outlined text-3xl">school</span>
+                        </div>
+                        <h2 class="text-[#0d121b] dark:text-white text-xl font-black tracking-tight">DSBV (H.S.)</h2>
+                    </div>
+                   
+                <button onclick="document.documentElement.classList.toggle('dark')" class="p-2 rounded-full hover:bg-slate-200 dark:hover:bg-slate-800 transition-colors">
+                    <span class="material-symbols-outlined text-xl">dark_mode</span>
+                </button>
+            </div>
+        </header>
+
+        <main class="flex-1 flex flex-col items-center w-full pb-20">
+            
+            <section class="w-full py-20 bg-slate-100 dark:bg-slate-900/50 border-b border-slate-200 dark:border-slate-800 flex flex-col items-center text-center px-4">
+                <h1 class="text-4xl md:text-6xl font-black mb-4">Our <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-emerald-400">Achievements</span></h1>
+                <p class="text-slate-600 dark:text-slate-400 max-w-2xl text-lg">Celebrating the hard work, talent, and excellence of our students in every field.</p>
+            </section>
+
+            <section class="w-full max-w-[1200px] px-4 md:px-10 py-16">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    
+                    <div class="group relative bg-white dark:bg-slate-800 rounded-3xl overflow-hidden shadow-xl transition-all duration-500 hover:scale-105 hover:shadow-primary/20 border border-slate-100 dark:border-slate-700">
+                        <div class="h-64 bg-primary/10 flex items-center justify-center">
+                            <span class="material-symbols-outlined text-8xl text-primary animate-pulse">workspace_premium</span>
+                        </div>
+                        <div class="p-8">
+                            <div class="flex items-center gap-2 mb-3">
+                                <span class="bg-blue-100 dark:bg-blue-900/30 text-primary text-xs font-bold px-3 py-1 rounded-full uppercase">Academic Excellence</span>
+                            </div>
+                            <h3 class="text-2xl font-black mb-4">100% Board Success</h3>
+                            <p class="text-slate-600 dark:text-slate-400 leading-relaxed">Our Higher Secondary students achieved a 100% pass rate this year, with 40% scoring above 90% in their final examinations.</p>
+                        </div>
+                    </div>
+
+                    <div class="group relative bg-white dark:bg-slate-800 rounded-3xl overflow-hidden shadow-xl transition-all duration-500 hover:scale-105 hover:shadow-orange-500/20 border border-slate-100 dark:border-slate-700">
+                        <div class="h-64 bg-orange-50 dark:bg-orange-900/10 flex items-center justify-center">
+                            <span class="material-symbols-outlined text-8xl text-orange-500">trophy</span>
+                        </div>
+                        <div class="p-8">
+                            <div class="flex items-center gap-2 mb-3">
+                                <span class="bg-orange-100 dark:bg-orange-900/30 text-orange-600 text-xs font-bold px-3 py-1 rounded-full uppercase">Sports & Games</span>
+                            </div>
+                            <h3 class="text-2xl font-black mb-4">District Football Champions</h3>
+                            <p class="text-slate-600 dark:text-slate-400 leading-relaxed">The DSBV Under-19 Football team brought home the District Championship trophy after a thrilling final match victory.</p>
+                        </div>
+                    </div>
+
+                    <div class="group relative bg-white dark:bg-slate-800 rounded-3xl overflow-hidden shadow-xl transition-all duration-500 hover:scale-105 hover:shadow-pink-500/20 border border-slate-100 dark:border-slate-700">
+                        <div class="h-64 bg-pink-50 dark:bg-pink-900/10 flex items-center justify-center">
+                            <span class="material-symbols-outlined text-8xl text-pink-500">theater_comedy</span>
+                        </div>
+                        <div class="p-8">
+                            <div class="flex items-center gap-2 mb-3">
+                                <span class="bg-pink-100 dark:bg-pink-900/30 text-pink-600 text-xs font-bold px-3 py-1 rounded-full uppercase">Cultural Heritage</span>
+                            </div>
+                            <h3 class="text-2xl font-black mb-4">State Level Drama Winner</h3>
+                            <p class="text-slate-600 dark:text-slate-400 leading-relaxed">Our drama troupe won the 'Best Performance' award at the State Youth Festival for their play on social awareness.</p>
+                        </div>
+                    </div>
+
+                    <div class="group relative bg-white dark:bg-slate-800 rounded-3xl overflow-hidden shadow-xl transition-all duration-500 hover:scale-105 hover:shadow-emerald-500/20 border border-slate-100 dark:border-slate-700">
+                        <div class="h-64 bg-emerald-50 dark:bg-emerald-900/10 flex items-center justify-center">
+                            <span class="material-symbols-outlined text-8xl text-emerald-500">science</span>
+                        </div>
+                        <div class="p-8">
+                            <div class="flex items-center gap-2 mb-3">
+                                <span class="bg-emerald-100 dark:bg-emerald-900/30 text-emerald-600 text-xs font-bold px-3 py-1 rounded-full uppercase">Innovation</span>
+                            </div>
+                            <h3 class="text-2xl font-black mb-4">National Science Fair Finalist</h3>
+                            <p class="text-slate-600 dark:text-slate-400 leading-relaxed">Two of our Class XI students were selected for the National Science Congress for their project on sustainable irrigation.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+        </main>
+
+        <footer class="w-full bg-[#0a0f1a] text-white py-10 px-4 text-center">
+            <p class="text-slate-500 text-sm">© 2026 Digsui Sadhana Banga Vidyalaya (H.S.). All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
